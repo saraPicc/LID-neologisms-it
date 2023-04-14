@@ -27,7 +27,7 @@ Tf-idf | SMV RBF | 2-grams
 
 **Main challenges**
 
-Word length: the shorter the segments, the most difficult is the classification task.
+Word length: the shorter the segments, the most difficult is the classification task <br/>
 Huge quanitity of features to classify: trigrams or bigrams
 
 **Data**
