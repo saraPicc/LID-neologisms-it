@@ -8,7 +8,7 @@ Count, TF-IDF and language-dependent weigth matrices were built and used for the
 
 **Main challenges**
 
-Word length: the shorter the segments, the most difficult is the classification task.
+Word length: the shorter the segments, the most difficult is the classification task <br/>
 Huge quanitity of features to classify: trigrams or bigrams
 
 **Data**
