@@ -2,28 +2,9 @@
 
 **Aim of the project**
 
-The aim of this project is to automatically identify the source language of some italian neologisms or other multilingual words by classifying character sequences with different supervised learning algorithms.
+The aim of this project is to automatically identify the source language of some italian neologisms or other multilingual words by classifying character sequences with different supervised learning algorithms (Naive Bayesian, Random Forest, Logistic Regression,  SMV Linear, SMV Sigmond, SMV RBF).
 
-
-**Experiments**
-
-Different kind of classifiers, matrices and n-grams: 
-
-
-MATRIX | CLASSIFIER | N-GRAMS | 
--------|------------|---------|
-count matrix | Naive Bayesian | 2-grams
-count_matrix | Random Forest | 2-grams
-count matrix | Logistic Regression | 2-grams
-count_matrix | SMV Linear | 2-grams
-count_matrix | SMV Sigmond | 2-grams
-count_matrix | SMV RBF | 2-grams
-Tf-idf | Naive Bayesian | 2-grams
-Tf-idf  | Random Forest | 2-grams
-Tf-idf | Logistic Regression | 2-grams
-Tf-idf | SMV Linear | 2-grams
-Tf-idf | SMV Sigmond | 2-grams
-Tf-idf | SMV RBF | 2-grams
+Count, TF-IDF and language-dependent weigth matrices were built and used for the classification.
 
 **Main challenges**
 
